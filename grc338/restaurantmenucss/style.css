@@ -7,25 +7,43 @@ body{
 h1{
     color: rgb(13, 74, 117);
     font-size: 3em;
-    text-align: center;
-    font-style: italic
+    font-style: italic;
+    margin: 0em 0em 0em 0em;
 }
 
 h2{
     color: rgb(120, 120, 120);
-    text-align: center;
+    margin: .5em 0em 2em 0em;
     font-family: sans-serif;
+    text-transform: uppercase;
 }
 
 h3{
-    color: rgb(255, 255, 255);
-    text-align: center;
+    color: rgb(162, 103, 105);
     font-family: sans-serif;
-    background-color: rgb(103, 169, 214);
-    padding: .25em .25em .25em .25em
+    padding: .25em .25em .25em .25em;
+    text-transform: uppercase;
+}
+
+h4{
+    font-family: sans-serif;
 }
 
 p{
     color: rgb(120, 120, 120);
-    font-family: sans-serif; 
+    font-family: serif;
+    font-style: italic;
+}
+
+.description{
+    margin: 1em 1em 1em 1.5em;
+}
+
+.price{
+    margin: 1em 1em 1em 1.5em;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
 }
