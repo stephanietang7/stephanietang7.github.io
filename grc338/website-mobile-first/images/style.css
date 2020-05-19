@@ -1,0 +1,144 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/xlf1teu.css");
+
+body{
+    background-color: rgb(255, 245, 245);
+    font-family: letter-gothic-std, monospace;
+    font-weight:400;
+    font-style: normal;
+}
+
+img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+}
+
+/*navigation*/
+    nav{
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav ul{
+        background-color: #a3bfaa;
+        border-radius: 40px;
+        padding: 0;
+    }
+
+    nav ul li{
+        list-style-type: none;
+        display: inline;
+        font-family: letter-gothic-std;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.25em;
+        text-transform: uppercase;
+        padding: .5em;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: #000000;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a:link{
+        color: #000000;
+    }
+
+    a:hover{
+       color: #ffffff;  
+    }
+/*navigation*/
+
+/*info*/
+div.info h3{
+    background-color: #a3bfaa;
+    text-align: center;
+    margin: 0;
+}
+
+div.info h4{
+    padding: .25em;
+}
+
+div.info p{
+    padding-left: .25em;
+}
+
+/*info*/
+
+.entryimage, .aboutimage{
+    padding-bottom: 1em;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    font-style: italic;
+    margin: 0;
+}
+/* h1 is not being used for anything, maybe take out later*/
+
+h2{
+    color: #4b485d;
+    margin: .5em 0em 2em 0em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+/* h2 is being used on about, menu and location for the header titles*/
+
+h3{
+    color: #000000;
+    font-family: letter-gothic-std;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/* h3 is being used on index and menu; contact and hours section headers; menu section headers such as appetizers, entrees, etc.*/
+
+h4{
+    font-family: bureau-grot, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+/* h4 is being used on index and menu; phone, email, address; menu item names*/
+
+p{
+    color: #706964;
+    font-family: ltc-caslon-pro;
+    font-style: normal;
+    margin: 0;
+}
+/* p is being used on all html; contact info and hours; about paragraph; menu item descriptions and prices; location paragraph*/
+
+.description{
+    margin: 1em 1em 1em 1.5em;
+}
+
+.price{
+    margin: 1em 1em 1em 1.5em;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
