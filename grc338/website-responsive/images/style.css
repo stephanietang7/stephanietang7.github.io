@@ -1,0 +1,204 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/xlf1teu.css");
+
+body{
+    background-color: rgb(255, 245, 245);
+    font-family: letter-gothic-std, monospace;
+    font-weight:400;
+    font-style: normal;
+}
+
+img{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.logo{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+}
+
+div.entryimage, div.aboutimage, .locationimage{
+    padding-bottom: 1em;
+}
+
+div.container{
+    max-width: 60em;
+    margin: auto;
+}
+
+/*navigation*/
+    nav{
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav ul{
+        background-color: #a3bfaa;
+        border-radius: 40px;
+        padding: 0;
+    }
+
+    nav ul li{
+        list-style-type: none;
+        display: inline;
+        font-family: letter-gothic-std;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.25em;
+        text-transform: uppercase;
+        padding: 1.25em;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: #000000;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a:hover{
+       color: #ffffff;  
+    }
+
+/*info*/
+div.info{
+    max-width: 35em;
+}
+
+div.info h3{
+    background-color: #a3bfaa;
+    text-align: center;
+    margin: 0;
+}
+
+div.info h4{
+    padding: .25em;
+}
+
+div.info p{
+    padding-left: .25em;
+}
+
+/*menu*/
+div.menu h3{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #a3bfaa; 
+    text-align: center;
+    margin: 0;
+}
+
+.appetizerimage, .entreeimage, .dessertimage{
+    padding-top: 1em;
+}
+
+.description, .price{
+    margin: 0em 1em .5em 1.5em;
+}
+
+/*location*/
+div.address h3{
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #a3bfaa;
+    margin-bottom: 0;
+}
+
+div.address p{
+        text-align: center;
+} 
+
+/*HTML headings*/
+h3{
+    font-family: letter-gothic-std;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/*h3 is being used on index and menu; contact and hours section headers; menu section headers such as appetizers, entrees, etc.*/
+
+h4{
+    font-family: bureau-grot, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+/*h4 is being used on index and menu; phone, email, address; menu item names*/
+
+p{
+    color: #706964;
+    font-family: ltc-caslon-pro;
+    font-style: normal;
+    margin: 0;
+}
+/*p is being used on all html; contact info and hours; about paragraph; menu item descriptions and prices; location paragraph*/
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+/*responsive web design*/
+
+@media only screen and (min-width: 35em){
+    div.info{
+        width: 35%;
+        float: left;
+        margin-right: 1em;
+        margin-left: 4em;
+    }
+    div.entryimage, div.aboutimage, div.appetizerimage, div.entreeimage, div.dessertimage, div.locationimage {
+        width: 70%;
+        margin: auto;
+    }
+    div.location p{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 55em){
+    div.info{
+        width: 45%;
+        float: left;
+        margin-right: 1em;
+        margin-left: 1.5em;
+    }
+    
+    div.aboutimage, div.locationimage{
+        width: 55%;
+        margin: auto;
+        float: left;
+        margin-right: 2em; 
+    }
+    
+    div.appetizerimage, div.entreeimage, div.dessertimage{
+        width: 45%;
+        margin: 0;
+        float: right;
+    }
+    
+    div.location p{
+        text-align: center;
+    }
+    
+    .appetizers ul, .entrees ul, .dessert ul, .specialtybeverages ul, .alcoholicbeverages ul{
+        width: 65%;
+    }
+    
+    .appetizers, .entrees, .desserts{
+        clear: left;
+    }
+}
