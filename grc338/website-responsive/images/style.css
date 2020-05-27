@@ -11,7 +11,7 @@ body{
 
 img{
     display: block;
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -105,6 +105,11 @@ div.menu h3{
     margin: 0em 1em .5em 1.5em;
 }
 
+.menu li{
+    padding-top: .5em;
+    padding-bottom: 1em;
+}
+
 /*location*/
 div.address h3{
     text-align: center;
@@ -186,7 +191,7 @@ ul{
     
     div.appetizerimage, div.entreeimage, div.dessertimage{
         width: 45%;
-        margin: 0;
+        margin-left: 1em;
         float: right;
     }
     
@@ -195,7 +200,7 @@ ul{
     }
     
     .appetizers ul, .entrees ul, .dessert ul, .specialtybeverages ul, .alcoholicbeverages ul{
-        width: 65%;
+        width: 55%;
     }
     
     .appetizers, .entrees, .desserts{
