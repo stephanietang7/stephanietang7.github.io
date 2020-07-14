@@ -1,0 +1,91 @@
+/*CSS document*/
+
+body {
+    color: #000000;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    padding-top: 1em;
+}
+
+div.logo {
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-bottom: 1em;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0.2em;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-family: verdigris-mvb-pro-text;
+}
+
+nav ul li a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: verdigris-mvb-pro-text;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: verdigris-mvb-pro-text;
+    font-size: 1.2em;
+    margin: 0.5em auto;
+}
+
+p {
+    font-family: corporate-s;
+    margin-top: 0;
+    font-size: 1.05em;
+}
+
+figcaption {
+    padding-bottom: 1.2em;
+    color: #565657;
+    
+}
+
+.teaser1 {
+    border-top: 2px solid;
+}
