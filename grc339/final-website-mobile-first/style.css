@@ -63,15 +63,18 @@ nav ul li a {
 }
 
 h2 {
-    font-family: verdigris-mvb-pro-text;
-    font-size: 1.5em;
     margin-top: 0;
+    font-size: 1.7em;
 }
 
-h3 {
-    font-family: verdigris-mvb-pro-text;
-    font-size: 1.2em;
+h3{
     margin: 0.5em auto;
+    font-size: 1.5em;
+}
+
+h2, h3 {
+    font-family: verdigris-mvb-pro-text;
+    text-transform: capitalize;
 }
 
 p {
@@ -88,4 +91,11 @@ figcaption {
 
 .teaser1 {
     border-top: 2px solid;
+}
+
+footer {
+    border-top: 2px solid;
+    text-align: center;
+    padding-top: 0.5em;
+    margin-top: 2.5em;
 }
