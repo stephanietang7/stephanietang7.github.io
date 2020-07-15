@@ -68,19 +68,19 @@ h2 {
 }
 
 h3{
-    margin: 0.5em auto;
+    margin: 0;
     font-size: 1.5em;
 }
 
 h2, h3 {
     font-family: verdigris-mvb-pro-text;
-    text-transform: capitalize;
 }
 
 p {
     font-family: corporate-s;
     margin-top: 0;
     font-size: 1.05em;
+    padding-bottom: 1em;
 }
 
 figcaption {
@@ -98,4 +98,58 @@ footer {
     text-align: center;
     padding-top: 0.5em;
     margin-top: 2.5em;
+}
+
+/*photo gallery*/
+
+h1{
+    margin-bottom: 0;
+    font-size: 1.7em;
+}
+
+main.gallery{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: calc(100% + 12em);
+}
+
+figure.gallery{
+    margin: 0;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+figcaption.gallery {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    color: #565657;
+}
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8),
+input:nth-of-type(9):checked ~ main figure:nth-of-type(9),
+input:nth-of-type(10):checked ~ main figure:nth-of-type(10),
+input:nth-of-type(11):checked ~ main figure:nth-of-type(11),
+input:nth-of-type(12):checked ~ main figure:nth-of-type(12){
+    opacity: 1;
+}
+
+nav.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0 0.5em;
+    border: none;
+}
+
+
+input {
+    display: none;
 }
