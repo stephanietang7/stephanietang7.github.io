@@ -101,10 +101,6 @@ figcaption {
     color: #565657;
 }
 
-.teaser1 {
-    border-top: 2px solid;
-}
-
 footer {
     border-top: 2px solid;
     text-align: center;
@@ -187,6 +183,13 @@ input {
         padding: 0 0.25em;
     }
 
+    section.mainstory p{
+        margin: 0;
+    }
+    
+    article p{
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 40em) {
@@ -201,14 +204,6 @@ input {
     
     section.mainstory p{
         margin: 0;
-    }
-    
-    article p{
-        margin: 0;
-    }
-    
-    nav ul li a {
-        font-size: 1.5em;
     } 
     
     nav ul li {
