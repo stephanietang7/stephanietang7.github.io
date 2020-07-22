@@ -11,7 +11,7 @@ a {
 }
 
 div.container, .container-gallery {
-    max-width: 80em;
+    max-width: 70em;
     margin: auto;
 }
 
@@ -25,7 +25,7 @@ img {
 }
 
 div.logo {
-    width: 80%;
+    width: 70%;
     margin: auto;
     margin-top: 0;
 }
@@ -108,6 +108,14 @@ footer {
     margin-top: 2.5em;
 }
 
+    section.mainstory p{
+        margin: 0;
+    }
+    
+    article p{
+        margin: 0;
+    }
+
 /*photo gallery*/
 
 div.gallery {
@@ -180,30 +188,26 @@ input {
     } 
     
     nav ul li {
-        padding: 0 0.25em;
-    }
-
-    section.mainstory p{
-        margin: 0;
+        padding: 0 0.5em;
     }
     
-    article p{
-        margin: 0;
+    div.logo {
+        margin-bottom: 0.5em;
     }
 }
 
 @media screen and (min-width: 40em) {
     
     div.logo {
-        width: 60%;
+        width: 50%;
     }
     
     main.gallery{
         padding-bottom: calc(130% + 3em);
     }
     
-    section.mainstory p{
-        margin: 0;
+    nav ul li a {
+        font-size: 1.5em;
     } 
     
     nav ul li {
@@ -214,20 +218,24 @@ input {
 @media screen and (min-width: 60em) {
     
     div.logo {
-        width: 50%;
-        margin-bottom: 2em;
+        width: 40%;
+        margin-bottom: 1em;
     }
     
     img {
         padding-top: 0.5em;
     }
     
+    nav ul {
+        padding: 0;
+    }
+    
     nav ul li {
-        padding: 0 2.5em;
+        padding: 0 2.25em;
     }
 
     nav ul li a {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
     
     div.container{
@@ -241,7 +249,7 @@ input {
     }
     
     section.mainstory h3 {
-        font-size: 2.1em; 
+        font-size: 2em; 
         margin-bottom: 0.5em;
     }
     
@@ -276,12 +284,13 @@ input {
     
     section.category h2 {
         margin-bottom: 0.5em;
+        font-size: 1.77em;
     }
     
     /*mainstory*/
     
     article h2 {
-        font-size: 2.3em;
+        font-size: 2em;
     }
     
     article p {
@@ -294,8 +303,12 @@ input {
     }
     
     aside h2 {
-        font-size: 1.95em;
+        font-size: 1.77em;
         margin-bottom: 0.5em;
+    }
+    
+    aside h3{
+        font-size: 1.4em;
     }
     
     /*photo gallery*/
@@ -305,6 +318,6 @@ input {
     }
     
     h1 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 }
