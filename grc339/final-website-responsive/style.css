@@ -172,7 +172,7 @@ input {
 
 @media screen and (min-width: 20em) {
     main.gallery{
-        padding-bottom: calc(150% + 3em);
+        padding-bottom: calc(147% + 3em);
     }
     
    nav ul li a {
